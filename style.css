@@ -1,0 +1,53 @@
+body {
+  padding-top: 56px;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(to right, #1d3557, #457b9d);
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+/* Fixed: proper selector for contact links */
+#contact p a {
+  text-decoration: none;
+}
+
+/* Experience & Education spacing */
+.experience-item,
+.education-item {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Skills lists */
+#skills ul {
+  margin-bottom: 10px;
+}
+
+#skills li {
+  margin-bottom: 8px;
+}
+
+footer {
+  margin-top: 40px;
+}
